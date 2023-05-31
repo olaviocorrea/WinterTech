@@ -1,0 +1,60 @@
+.form-login{
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#2B2C32;
+    width: auto;
+    min-width: 270px;
+    min-height: 300px; 
+    max-height: auto; 
+    margin-top: 5%;
+    padding: 1em;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 5%;  
+    border-radius: 1.2rem;
+    color: #eaeaea
+    
+}
+.container_login{
+    padding: 0.3rem;
+
+}
+
+.input_login{
+    display: flex;
+    align-items: center;    
+    color:#eaeaea
+    
+}
+
+.iconiUsername{
+    width: 15%;
+    left: auto;
+}
+
+.input-form{
+    width: 80%;
+    height: auto;
+    border-style: dotted;
+    border-width: 1px;
+    background: #2B2B32;
+    font-size: 14px;
+    color: #eaeaea;
+}
+
+#button_criar_conta{
+    padding: 4px;
+    background: #2b2b2b;
+    color: #eaeaea;
+    width: 6rem;
+}
+
+#buttons_login{    
+    display: flex;
+    justify-content:space-around;
+    padding-top: 10px;
+    gap: 60%;
+}
+

@@ -1,0 +1,74 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 5%;
+    
+}
+
+.detalhes-pedidos{
+    display: flex;    
+    justify-content: space-between;
+    background: #2B2C32;
+    color: #eaeaea;
+    padding: 3%  
+    
+}
+
+.forma-pgto{
+    background: #2B2C32;
+    color: #eaeaea;
+    padding: 3%
+    
+}
+
+.button_finalizar-pgto{
+    background: #eaeaea;
+    color: #2B2C32;
+    width: 20%;
+    margin-left: 80%;
+    font-size:1rem;
+    border:none
+    
+}
+
+.ver-detalhes{
+    background: #eaeaea;
+    color: #2B2C32;
+    width: 20%;
+    margin-left: 80%;
+    font-size: 1rem;
+    border:none;
+
+}
+
+#img-mastercard{
+    width: 30%;
+    left: auto;    
+}
+
+#img-visa{
+    width: 30%;
+    left: auto;
+}
+
+#img-pix{
+    width: 50%;
+    left: auto;
+
+}
+
+#img-boleto{
+    width: 40%;
+    left: auto;
+}
+
+dt, dd, p{
+    font-size: 1rem;
+}
+.detalhes{
+    border-radius: 10px ;
+
+}
+

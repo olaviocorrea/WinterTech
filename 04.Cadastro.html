@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="StyleAll.css" />
+    <link rel="stylesheet" type="text/css" href="StyleCadastro.css" />
+    <script src="JSCadastro.js" defer></script>
+    <title>Wintertech</title>
+</head>
+
+<body>
+    <header>
+        <div id="wrap">            
+            <h1>StyleTech</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_self" class="home">HOME</a></li>
+                    <li><a href="page_products.html" target="_self" class="produtos">PRODUTOS</a></li>
+                    <li><a href="page_about.html" target="_self" class="about">ABOUT</a></li>
+                    <li><a href="page_account.html" target="_self" class="conta">LOGIN</a></li>
+                    <li><a href="page_payment.html" target="_self" class="pagamento">PAGAMENTO</a></li>  
+                </ul>
+            </nav>
+        </div> 
+    </header>
+    <main>
+        <form class="form-cadastro">
+            <div>
+                <b><h2>StyleTech | Nova Conta</h2></b>
+            </div>
+            <div class="container_form">
+                <div for="text">
+                    <label>Nome</label>
+                </div>
+                <div class="input_cadastro">
+                    <img src="./img/imgUsername.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
+                    <input type="text" class= input-form id="nome" name="nome">
+                </div>
+            </div>
+            <div class="container_form">
+                <div for="Email">
+                    <label>Email</label>
+                </div>
+                <div class="input_cadastro">
+                    <img src="./img/imgUsername.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
+                    <input type="email" class= input-form id="email" name="email">
+                </div>
+            </div>
+            <div class="container_form">
+                <div  for="senha">
+                    <label>Senha</label>
+                </div>
+                <div class="input_cadastro">
+                    <img src="./img/imgSecure.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
+                    <input type="password" class= input-form id="senha" name="senha">
+                </div>
+            </div>
+            <div class="container_form">
+                <div  for="senha_two">
+                    <label>Confirmação de senha</label>
+                </div>
+                <div class="input_cadastro">
+                    <img src="./img/imgSecure.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
+                    <input type="password" class= input-form id="confirma-senha" name="senha">
+                </div>
+            </div>
+            <div id="buttons_cadastro">
+                <div>
+                    <button type="submit" id="button_criar_conta">Criar conta</button>
+                </div>
+                <div>
+                    <input type="image" id=" button_logar" src="/img/btnEnter.svg" alt="Submit" width="35" height="35">
+                </div> 
+            </div>        
+        </form>
+    </main> 
+    
+    <footer>
+        <div id="down">
+            <ul>
+                <p class=""copyright>&copy; StyleTech</p>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
