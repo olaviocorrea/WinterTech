@@ -25,30 +25,27 @@ a:hover{
 }
 #wrap{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: auto;
     margin: auto;
-    padding-left: 1em;
-    
+    padding-left:1em;
 }
 
 header div nav ul{
     list-style: none;      
     display: flex;   
 }
-header nav ul li a{
 
-    font-size: 0.9rem;
+header nav ul li a{
+    font-size: 0.60em;
     color:  #000000;
     text-decoration: none;
-    padding-left: 0.4em;
-    padding-right: 0.4em;
-    
+    padding-left: 0.90em;
+
 }
 
 #menu{
     background: #F1EFE7;
+    padding: 15px;
 }
 
 /*------------ F O O T E R ------------*/
