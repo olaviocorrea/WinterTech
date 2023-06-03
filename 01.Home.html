@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="StyleAll.css" />
     <link rel="stylesheet" type="text/css" href="StyleHome.css" />
     <script src="JSHome.js" defer></script>
@@ -25,23 +26,28 @@
         <div id="user"><a href="03.Login.html"><img src="IMG/17004.png"></a></div>
         <div id="carrinho"><a href="05.Carrinho.html"><img src="IMG/shopping-cart-removebg-preview.png"></a></div>
 
-
+    </header>
+    <div class="drop">
+        <div class="dropdown">
+            <a class="dropbtn"><strong>Feminino</strong></a>
+            <div class="dropdown-content">
+                <a href="#">Esportivo</a>
+                <a href="#">Casual</a>
+            </div>
+        </div>
+        <div class="dropdown" class="dropdown-masc">
+            <a class="dropbtn"><strong>Masculino</strong></a>
+            <div class="dropdown-content">
+                <a href="#">Esportivo</a>
+                <a href="#">Casual</a>
+            </div>
+        </div>
+        <a href="#Quemsomos" class="quemsomos"><strong>Quem somos</strong></a>
+    </div>
+    
+    
 
 <!--
-        <div id="wrap">            
-            <nav>
-                <h2>
-                    <ul>
-                        <li><a href="page_products.html" target="_self" class="produtos">Esportivo</a></li>
-                        <li><a href="page_about.html" target="_self" class="about">Casual</a></li>
-                        <li><a href="page_account.html" target="_self" class="conta">Quem somos</a></li>
-                    </ul>
-                </h2>
-            </nav>
-        </div> 
-    </header>
-
---
 -- S L I D E R--
     <section class="slider">
         <div class="slider-content">
@@ -76,18 +82,83 @@
 
         </div>
     </section>
---
-    <div id="Quemsomos">
-        <p>
-            A Wintertech busca se tornar a líder do mercado em moda online, proporcionando aos nossos clientes uma experiência de compra inovadora e diferenciada. Queremos ser reconhecidos como a marca de roupas online mais confiável, oferecendo uma seleção abrangente de produtos de qualidade e atendimento excepcional ao cliente.
-        </p>
-    </div>
+-->
+<section id="Quemsomos">
+    <div class="containe1">
+        <h2>Quem Somos</h2>
+        <p>Wintertech busca se tornar a líder do mercado em moda online, proporcionando aos nossos clientes uma experiência de compra 
+        inovadora e diferenciada. Queremos ser reconhecidos como a marca de roupas online mais confiável, oferecendo uma seleção abrangente 
+        de produtos de qualidade e atendimento excepcional ao cliente.</p>
+    </div>  
+</section>
+    
 
-    <footer>
-        <P id="pag">FORMAS DE PAGAMENTO</P>
-        <div id="forma-de-pagamento-grande-removebg-preview"><img src="IMG/forma-de-pagamento-grande-removebg-preview.png"></div>
+    <main> 
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1><img src="IMG/Logo.png" alt=""></h1>
+                    <p>It's all about your dreams.</p>
 
-    </footer>
-    --
+                    <div id="footer_social_media">
+                        <a href="#" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="footer-link" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Blog</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Tech</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Adventures</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Music</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Products</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">App</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Desktop</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Cloud</a>
+                    </li>
+                </ul>
+
+                <div id="footer_subscribe">
+                    <h3>Subscribe</h3>
+
+                    <p>Escreva seu emaik para receber notificações</p>
+                </div>
+
+                <div id="input_group"></div>
+            </div>
+
+            <div id="footer_copyright"><strong>
+                &#169
+                2023 all rights reserved</strong>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
