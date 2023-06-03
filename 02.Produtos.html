@@ -11,54 +11,180 @@
 </head>
 
 <body>
-    <header>
-        <div id="wrap">            
-            <h1>Wintertech</h1>
-            <nav>
-                <ul>
-                    <li><a href="./01.Home.html" target="_self" class="home">HOME</a></li>
-                    <li><a href="./01.Home.html" target="_self" class="about">ABOUT</a></li>
-                    <li><a href="./03.Login.html" target="_self" class="conta">LOGIN</a></li>
-                    <li><a href="./04.Cadastro.html" target="_self" class="cadastro">CADASTRO</a></li>
-                    <li><a href="./05.Carrinho.html" target="_self" class="pagamento">PAGAMENTO</a></li>  
-                </ul>
-            </nav>
-        </div> 
-    </header>
+    <div id="line"><p></p></div>    
 
-    <div id="line">
-        <p>Wintertech | Produtos</p>
+    <header id="menu">
+        <div id="logo"><a href="01.Home.html"><img src="IMG/Logo.png"></a></div>
+
+        <div class="search-box">
+            <input type="text" class="search-tex" placeholder="search...">
+            <a class="search-btn"></a>
+            <img class="lupa" src="IMG/search.png" >
+        </div>    
+        
+        <div id="user"><a href="03.Login.html"><img src="IMG/17004.png"></a></div>
+        <div id="carrinhoCompras"><a href="05.Carrinho.html"><img src="IMG/shopping-cart-removebg-preview.png"></a></div>
+
+    </header>
+    <div class="drop">
+        <div class="dropdown">
+            <a class="dropbtn"><strong>Feminino</strong></a>
+            <div class="dropdown-content">
+                <a href="#" src="#FemininoCasual">Esportivo</a>
+                <a href="#" src="#FemininoEsportivo">Casual</a>
+            </div>
+        </div>
+        <div class="dropdown" class="dropdown-masc">
+            <a class="dropbtn"><strong>Masculino</strong></a>
+            <div class="dropdown-content">
+                <a href="#">Esportivo</a>
+                <a href="#">Casual</a>
+            </div>
+        </div>
+        <a href="#Quemsomos" class="quemsomos"><strong>Quem somos</strong></a>
+    </div>
+    <main>
+        <h1 id="FemininoEsportivo">Feminino Esportivo</h1>
+    <div class="container">
+    <div class="produto">
+      <img src="caminho/para/imagem1.jpg" alt="Produto 1">
+      <h3>Camiseta</h3>
+      <p>R$ 29.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Camiseta', 29.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="caminho/para/imagem2.jpg" alt="Produto 2">
+      <h3>Calça Jeans</h3>
+      <p>R$ 59.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Calça Jeans', 59.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="caminho/para/imagem3.jpg" alt="Produto 3">
+      <h3>Vestido</h3>
+      <p>R$ 79.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Vestido', 79.99)">Comprar</a>
+    </div>
+    </div><br>
+        <h1 id="FemininoCasual">Feminino Casual</h1>
+    <div class="container">
+    <div class="produto">
+      <img src="https://i0.wp.com/www.canalmasculino.com.br/wp-content/uploads/2018/02/smart-casual-masculino-ft03-570x855.jpg?resize=570%2C855" alt="Produto 1">
+      <h3>Camiseta</h3>
+      <p>R$ 29.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Camiseta', 29.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="https://i0.wp.com/www.canalmasculino.com.br/wp-content/uploads/2018/02/smart-casual-masculino-ft03-570x855.jpg?resize=570%2C855" alt="Produto 2">
+      <h3>Calça Jeans</h3>
+      <p>R$ 59.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Calça Jeans', 59.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="caminho/para/imagem3.jpg" alt="Produto 3">
+      <h3>Vestido</h3>
+      <p>R$ 79.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Vestido', 79.99)">Comprar</a>
+    </div>
+<br>
+        <h1 id="FemininoCasual">Feminino Casual</h1>
+    <br>
+    <div class="container">
+    <div class="produto">
+      <img src="https://i0.wp.com/www.canalmasculino.com.br/wp-content/uploads/2018/02/smart-casual-masculino-ft03-570x855.jpg?resize=570%2C855" alt="Produto 1">
+      <h3>Camiseta</h3>
+      <p>R$ 29.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Camiseta', 29.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="https://i0.wp.com/www.canalmasculino.com.br/wp-content/uploads/2018/02/smart-casual-masculino-ft03-570x855.jpg?resize=570%2C855" alt="Produto 2">
+      <h3>Calça Jeans</h3>
+      <p>R$ 59.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Calça Jeans', 59.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="caminho/para/imagem3.jpg" alt="Produto 3">
+      <h3>Vestido</h3>
+      <p>R$ 79.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Vestido', 79.99)">Comprar</a>
     </div>
 
-    <main>
-        <section class="featured-products">
-            <h2>Produtos em Destaque</h2>
-            <div class="product">
-                <img src="./IMG/fem3.png" alt="Produto 1">
-                <h3>Conjunto de Camisas</h3>
-                <p>R$ 99,00</p>
-                <button id="btn" href="./05.Carrinho.html">Adicionar ao carrinho</button>
-            </div>
-            <div class="product">
-                <img src="./IMG/fem3.png" alt="Produto 1">
-                <h3>Conjunto de Camisas</h3>
-                <p>R$ 99,00</p>
-                <button id="btn" href="./05.Carrinho.html">Adicionar ao carrinho</button>
-            </div>
-            <div class="product">
-                <img src="./IMG/fem3.png" alt="Produto 2">
-                <h3>Sapatos</h3>
-                <p>R$ 79,00</p>
-                <button id="btn" href="./05.Carrinho.html">Adicionar ao carrinho</button>
-            </div>
-            <br>
-            
-        <!-- Mais produtos em destaque aqui -->
-        </section>
+    
+  <div id="carrinho">
+    <h2>Carrinho de Compras</h2>
+    <div id="itens-carrinho"></div>
+    <p id="total-carrinho">Total: R$ 0.00</p>
+    <a href="./05.Carrinho.html" class="btn-comprar" onclick="adicionarAoCarrinho">Pagar</a>
+  </div>
     </main>
 
-    <footer>        
-        <p class=""copyright>&copy; WinterTech</p>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1><img clas="logoFooter"src="IMG/Logo.png" alt=""></h1>
+                <p>It's all about your dreams.</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tech</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Adventures</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Music</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Products</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Subscribe</h3>
+
+                <p>Escreva seu emaik para receber notificações</p>
+            </div>
+
+            <div id="input_group"></div>
+        </div>
+
+        <div id="footer_copyright"><strong>
+            &#169
+            2023 all rights reserved</strong>
+        </div>
+    </footer>
+</main>
+</body>
+</html>        
     </footer>
 </body>
 </html>
