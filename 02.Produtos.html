@@ -6,51 +6,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="StyleAll.css" />
     <link rel="stylesheet" type="text/css" href="StyleProdutos.css" />
-    <script src="JSProdutos.js" defer></script>
+    <script src="./JSProdutos.js" defer></script>
     <title>Wintertech</title>
 </head>
 
 <body>
-    <header>
-        <div id="wrap">            
-            <h1>StyleTech</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html" target="_self" class="home">HOME</a></li>
-                    <li><a href="page_about.html" target="_self" class="about">ABOUT</a></li>
-                    <li><a href="page_account.html" target="_self" class="conta">LOGIN</a></li>
-                    <li><a href="page_register.html" target="_self" class="cadastro">CADASTRO</a></li>
-                    <li><a href="page_payment.html" target="_self" class="pagamento">PAGAMENTO</a></li>  
-                </ul>
-            </nav>
-        </div> 
+    <div id="line"><p></p></div>    
+
+    <header id="menu">
+        <div id="logo"><a href="01.Home.html"><img src="IMG/Logo.png"></a></div>
+
+        <div class="search-box">
+            <input type="text" class="search-tex" placeholder="search...">
+            <a class="search-btn"></a>
+            <img class="lupa" src="IMG/search.png" >
+        </div>    
+        
+        <div id="user"><a href="03.Login.html"><img src="IMG/17004.png"></a></div>
+        <div id="carrinhoCompras"><a href="05.Carrinho.html"><img src="IMG/shopping-cart-removebg-preview.png"></a></div>
+
     </header>
-
-    <div id="line">
-        <p>StyleTech | Produtos</p>
-    </div>
-
     <main>
-        <section class="featured-products">
-            <h2>Produtos em Destaque</h2>
-            <div class="product">
-                <img src="IMG USADAS/img02.jpg" alt="Produto 1">
-                <h3>Conjunto de Camisas</h3>
-                <p>R$ 99,00</p>
-                <button>Adicionar ao Carrinho</button>
-            </div>
-            <div class="product">
-                <img src="IMG USADAS/img01.jpg" alt="Produto 2">
-                <h3>Sapatos</h3>
-                <p>R$ 79,00</p>
-                <button>Adicionar ao Carrinho</button>
-            </div>
-        <!-- Mais produtos em destaque aqui -->
-        </section>
+        <h1>Feminino Esportivo</h1>
+    <div class="container">
+    <div class="produto">
+      <img src="./FotosRoupas/Esportfem1.jpg" alt="Produto 1">
+      <h3>Conjunto degrade 3 peças</h3>
+      <p>R$ 189.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Conjunto fitness degrade 3 peças', 189.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="./FotosRoupas/Esportfem2.jpg" alt="Produto 2">
+      <h3>Jaqueta esportiva com luva</h3>
+      <p>R$ 119.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Jaqueta esportiva com luva', 119.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="./FotosRoupas/Esportfem3.jpg" alt="Produto 3">
+      <h3>Jaqueta Corta vento impermeável</h3>
+      <p>R$ 179.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Jaqueta Corta vento impermeável', 179.99)">Comprar</a>
+    </div>
+    </div><br>
+        <h1 class="FemininoCasual">Feminino Casual</h1>
+    <div class="container">
+    <div class="produto">
+      <img src="./FotosRoupas/casuaFem1.webp" height="250px" width="250px" alt="Produto ">
+      <h3>Camiseta Sólido Gola V Detalhe do botão</h3>
+      <p>R$ 69.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Camiseta Sólido Gola V Detalhe do botão', 69.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="./FotosRoupas/casuaFem2.webp" height="200px" width="200px" alt="Produto ">
+      <h3>Vestido Tp Viscose Linho</h3>
+      <p>R$ 99.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Vestido Tp Viscose Linho', 99.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="./FotosRoupas/casuaFem3.jpg" alt="Produto ">
+      <h3>CALCA JEANS 360</h3>
+      <p>R$ 150.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Vestido', 79.99)">Comprar</a>
+    </div>
+    <br>
+        <h1 class="h1roupaMas">Masculino Esporte</h1>
+    <br>
+    <div class="container">
+    <div class="produto">
+      <img src="./FotosRoupas/EsprtMasc1.jpg" alt="Produto ">
+      <h3>Jaqueta masculina impermeável</h3>
+      <p>R$ 139.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Jaqueta masculina impermeável', 139.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="./FotosRoupas/EsportMasc2.jpg" alt="Produto ">
+      <h3>Segunda pele masculina</h3>
+      <p>R$ 59.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Segunda pele masculina', 59.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="./FotosRoupas/EsportMascu3.jpg" alt="Produto ">
+      <h3>Conjunto Moletom e Calça Jogger + Boné</h3>
+      <p>R$ 79.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Conjunto Moletom e Calça Jogger + Boné', 79.99)">Comprar</a>
+    </div>
+    <br>
+        <h1 class="h1roupaMas">Masculino  Casual</h1>
+    <br>
+    <div class="container">
+    <div class="produto">
+      <img src="./FotosRoupas/CasuaMasc1.webp" alt="Produto ">
+      <h3>Camisa Masculina Manga Longa Blouse</h3>
+      <p>R$ 29.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Camisa Masculina Manga Longa Blouse', 157.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="./FotosRoupas/casuaMasc2.jpg" height="100px" width="100px" alt="Produto ">
+      <h3>Calça Masculina Sarja Slim </h3>
+      <p>R$ 159.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Calça Masculina Sarja ', 159.99)">Comprar</a>
+    </div>
+    <div class="produto">
+      <img src="./FotosRoupas/CasuaMasc3.webp"  alt="Produto ">
+      <h3>Camisa Social Masculina</h3>
+      <p>R$ 114.99</p>
+      <a href="#" class="btn-comprar" onclick="adicionarAoCarrinho('Camisa Social ', 114.99)">Comprar</a>
+    </div>
+    <div id="carrinho">
+     <h2>Carrinho de Compras</h2>
+     <div id="itens-carrinho"></div>
+     <p id="total-carrinho">Total: R$ 0.00</p>
+     <a href="./05.Carrinho.html" class="btn-comprar" onclick="adicionarAoCarrinho">Pagar</a>
+    </div>
     </main>
 
-    <footer>        
-        <p class=""copyright>&copy; StyleTech</p>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1><img clas="logoFooter"src="IMG/Logo.png" alt=""></h1>
+                <p>It's all about your dreams.</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tech</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Adventures</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Music</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Products</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Subscribe</h3>
+
+                <p>Escreva seu emaik para receber notificações</p>
+            </div>
+
+            <div id="input_group"></div>
+        </div>
+
+        <div id="footer_copyright"><strong>
+            &#169
+            2023 all rights reserved</strong>
+        </div>
+    </footer>
+</main>
+</body>
+</html>        
     </footer>
 </body>
 </html>
