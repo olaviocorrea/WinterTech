@@ -1,87 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="StyleAll.css" />
-    <link rel="stylesheet" type="text/css" href="StyleLogin.css" />
-    <script src="JSProdutos.js" defer></script>
-    <title>Wintertech</title>
-    
-</head>
-
-<body>
-    <div id="line"><p></p></div>    
-
-    <header id="menu">
-        <div id="logo"><a href="01.Home.html"><img src="IMG/Logo.png"></a></div>
-
-        <div class="search-box">
-            <input type="text" class="search-tex" placeholder="search...">
-            <a class="search-btn"></a>
-            <img class="lupa" src="IMG/search.png" >
-        </div>    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="StyleAll.css" />
+        <link rel="stylesheet" type="text/css" href="StyleLogin.css" />
+        <script src="JSProdutos.js" defer></script>
+        <title>Wintertech</title>
         
-        <div id="user"><a href="03.Login.html"><img src="IMG/17004.png"></a></div>
-        <div id="carrinho"><a href="#"><img src="IMG/shopping-cart-removebg-preview.png"></a></div>
+    </head>
 
-    </header>
-    <div class="drop">
-        <div class="dropdown">
-            <a class="dropbtn"><strong>Feminino</strong></a>
-            <div class="dropdown-content">
-                <a  href="./02.Produtos.html">Esportivo</a>
-                <a href="./02.Produtos.html" >Casual</a>
-            </div>
-        </div>
-        <div class="dropdown" class="dropdown-masc">
-            <a class="dropbtn"><strong>Masculino</strong></a>
-            <div class="dropdown-content">
-                <a href="./02.Produtos.html">Esportivo</a>
-                <a href="./02.Produtos.html">Casual</a>
-            </div>
-        </div>
-    </div>
-    
-    <section>
-        <form class="form-login">
-            <div>
-                <b><h2>StyleTech | Login</h2></b>
-            </div>
-            <div class="container_">
-                <div for="username">
-                    <label>Usuario</label>
-                </div>
-                <div class="input_login">
-                    <img src="./img/imgUsername.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
-                    <input type="email" class= input-form id="usuario" name="usuario">
-                </div>
-            </div>
-            <div class="container_form">
-                <div  for="senha">
-                    <label>Senha</label>
-                </div>
-                <div class="input_login">
-                    <img src="./img/imgSecure.svg" alt="Icone Usuário" target="_blank" class="iconiUsername">
-                    <input type="password" class= input-form id="senha" name="senha">
-                </div>
-            </div>
+    <body>
+        <div id="line"><p></p></div>    
+
+        <header id="menu">
+            <div id="logo"><a href="01.Home.html"><img src="IMG/Logo.png"></a></div>
+
+            <div class="search-box">
+                <input type="text" class="search-tex" placeholder="search...">
+                <a class="search-btn"></a>
+                <img class="lupa" src="IMG/search.png" >
+            </div>    
             
-            </div>
-            <div id="buttons_login">
-                <div>
-                    <a href="page_register.html"></a><button type="submit" id="button_criar_conta">Criar conta</button></a>
+            <div id="user"><a href="03.Login.html"><img src="IMG/17004.png"></a></div>
+            <div id="carrinho"><a href="#"><img src="IMG/shopping-cart-removebg-preview.png"></a></div>
+        </header>
+
+        <main>
+            <div class="drop">
+                <div class="dropdown">
+                    <a class="dropbtn"><strong>Feminino</strong></a>
+                    <div class="dropdown-content">
+                        <a  href="./02.Produtos.html">Esportivo</a>
+                        <a href="./02.Produtos.html" >Casual</a>
+                    </div>
                 </div>
-                <div>
-                    <input type="image" id=" button_logar" src="/img/btnEnter.svg" alt="Submit" width="35" height="35">
-                </div> 
-            </div>        
-        </form>
-    </section> 
+                <div class="dropdown" class="dropdown-masc">
+                    <a class="dropbtn"><strong>Masculino</strong></a>
+                    <div class="dropdown-content">
+                        <a href="./02.Produtos.html">Esportivo</a>
+                        <a href="./02.Produtos.html">Casual</a>
+                    </div>
+                </div>
+            </div>
+
+            <form action="">
+                <div id="logo">
+                    <a href="01.Home.html"><img src="IMG/Logo.png"></a>
+                </div>
     
-        <main> 
+                <div class="conteiner-form">
+                    <label for="email">
+                        <img src="./IMG/profile-user.png" alt="" target="_blank" class="icones-form">
+                    </label>
+                    <input type="email" id="email" name="email" class="input-form" placeholder="Informe seu e-mail">
+                </div>
+                        
+                <div class="conteiner-form">
+                    <label for="senha">
+                        <img src="./IMG/lock (2).png" alt="" target="_blank" class="icones-form">
+                    </label>
+                    <input type="password" id="senha" name="senha" class="input-form" placeholder="Informe uma senha">
+                </div>       
+                
+                <button type="submit">LOGIN</button>                   
+                
+                <div class="links-submits">
+                    <div>
+                        <a href=""><i>Esqueci minha senha</i></a>
+                    </div>
+                    <div>
+                        <a href="./04.Cadastro.html"><i>Não possuo cadastro</i></a>
+                    </div>
+                </div>
+                
+            </form>        
             <footer>
                 <div id="footer_content">
                     <div id="footer_contacts">
