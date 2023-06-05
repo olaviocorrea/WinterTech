@@ -1,15 +1,4 @@
 
-/*------------ L I N E R ------------*/
-#line p{
-    text-decoration: underline;
-    text-align: center;
-    color: #2b2b2b;
-    font-weight: bold;
-    font-size: 1em;
-    padding:1rem 15px;
-    
-        
-}
 /* Produtos */
 .container {
   max-width: 950px;
@@ -54,41 +43,12 @@
   background-color: #555;
 }
 
-#carrinho {
-  margin-top: 30px;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  padding: 20px;
-  
-  
-}
 
-#carrinho h2 {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-#carrinho .produto-carrinho {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-#carrinho .produto-carrinho img {
-  max-width: 80px;
-  height: auto;
-  margin-right: 10px;
-}
-
-#carrinho .produto-carrinho p {
-  margin: 0;
-}
 
 
 /* Reset de estilos básicos */
 
-main {
+section {
     max-width: 900px;
     margin: 20px auto;
 

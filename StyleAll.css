@@ -17,7 +17,7 @@ html{
 }
 /*------------ L O G O ------------*/
 
-#logo img{
+#logo img, #footer_img img{
     margin-left: 30px;
     margin-right: 45px;
     padding-top: 15px;
@@ -156,7 +156,7 @@ main{
 footer {
    width: 100%;
    color: var(--color-neutral-10) ;
-
+   
 }
 .footer-link{
     text-decoration: none;
@@ -164,19 +164,15 @@ footer {
 }
 #footer_content{
     background-color: var(--color-neutral-0);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 3rem 3.5rem;
-}
-
-#footer_contacts h1{
-    margin: 0.75rem;
+    display: flex;
+    padding: 0.5rem 1rem;
+    top: auto;
+    align-items: center;
 }
 
 #footer_social_media{
     display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
+    gap: 1rem;
 }
 
 #footer_social_media .footer-link{
@@ -197,39 +193,16 @@ footer {
     
 }
 #instagram{
-    background: linear-gradient(#7f37c9, #ff2992, #ff9808);
+    margin-left: 44rem;
+    background: var(--color-neutral-10);
 }
 #facebook{
-    background-color: #4267b3;
+    background-color: var(--color-neutral-10);
 }
 #whatsapp{
-    background-color: #25d366;
+    background-color: var(--color-neutral-10);
 }
 
-.footer-list{
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    list-style: none;
-}
-.footer-list .footer-link{
-    color: var(--color-neutral-10);
-    transition: 0.4s;
-}
-
-.footer-list .footer-link:hover{
-    color: var(--color-neutral-10);
-}
-
-#footer_subscribe{
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-#footer_subscribe p{
-    color: var(--color-neutral-10);
-}
 
 #footer_copyright{
     display: flex;

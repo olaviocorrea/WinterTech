@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="StyleAll.css" />
     <link rel="stylesheet" type="text/css" href="StyleCadastro.css" />
     <script src="JSCadastro.js" defer></script>
@@ -11,21 +12,39 @@
 </head>
 
 <body>
-    <header>
-        <div id="wrap">            
-            <h1>StyleTech</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html" target="_self" class="home">HOME</a></li>
-                    <li><a href="page_products.html" target="_self" class="produtos">PRODUTOS</a></li>
-                    <li><a href="page_about.html" target="_self" class="about">ABOUT</a></li>
-                    <li><a href="page_account.html" target="_self" class="conta">LOGIN</a></li>
-                    <li><a href="page_payment.html" target="_self" class="pagamento">PAGAMENTO</a></li>  
-                </ul>
-            </nav>
-        </div> 
+    <div id="line"><p></p></div>    
+
+    <header id="menu">
+        <div id="logo"><a href="01.Home.html"><img src="IMG/Logo.png"></a></div>
+
+        <div class="search-box">
+            <input type="text" class="search-tex" placeholder="search...">
+            <a class="search-btn"></a>
+            <img class="lupa" src="IMG/search.png" >
+        </div>    
+        
+        <div id="user"><a href="03.Login.html"><img src="IMG/17004.png"></a></div>
+        <div id="carrinho"><a href="#"><img src="IMG/shopping-cart-removebg-preview.png"></a></div>
+
     </header>
-    <main>
+    <div class="drop">
+        <div class="dropdown">
+            <a class="dropbtn"><strong>Feminino</strong></a>
+            <div class="dropdown-content">
+                <a  href="./02.Produtos.html">Esportivo</a>
+                <a href="./02.Produtos.html" >Casual</a>
+            </div>
+        </div>
+        <div class="dropdown" class="dropdown-masc">
+            <a class="dropbtn"><strong>Masculino</strong></a>
+            <div class="dropdown-content">
+                <a href="./02.Produtos.html">Esportivo</a>
+                <a href="./02.Produtos.html">Casual</a>
+            </div>
+        </div>   
+    </div>
+
+    <section>
         <form class="form-cadastro">
             <div>
                 <b><h2>StyleTech | Nova Conta</h2></b>
@@ -77,12 +96,34 @@
         </form>
     </main> 
     
-    <footer>
-        <div id="down">
-            <ul>
-                <p class=""copyright>&copy; StyleTech</p>
-            </ul>
-        </div>
-    </footer>
+    <main> 
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <img id="footer_img" src="IMG/Logo.png">
+                </div>
+
+                    <div id="footer_social_media">
+                        <a href="#" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="footer-link" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                <div id="input_group"></div>
+            </div>
+
+            <div id="footer_copyright"><strong>
+                &#169
+                2023 all rights reserved</strong>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
