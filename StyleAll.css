@@ -6,9 +6,11 @@
     font-family: 'Inter', sans-serif;
     letter-spacing: 1px;
 
+
 }
 
 html{
+ 
     scroll-behavior: smooth;}
 
 #line p{
@@ -17,7 +19,7 @@ html{
 }
 /*------------ L O G O ------------*/
 
-#logo img, #footer_img img{
+#logo img{
     margin-left: 30px;
     margin-right: 45px;
     padding-top: 15px;
@@ -146,7 +148,6 @@ html{
     transition: 0.5s;
     
 }
-*/
 
 /*------------ F O O T E R ------------*/
 
@@ -167,6 +168,7 @@ footer {
     display: flex;
     padding: 0.5rem 1rem;
     top: auto;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -213,6 +215,16 @@ footer {
     padding: 1.5rem;
     font-weight: 100;
     
+
+    
+}
+
+#footer_img{
+    margin-left: 30px;
+    margin-right: 45px;
+    padding-top: 15px;
+    max-width:200px;
+    max-height:190px;
 
 }
 

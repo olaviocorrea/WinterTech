@@ -1,3 +1,54 @@
+
+
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.botao {
+    position: absolute;
+    border-radius: 10px;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    padding: 15px 25px;
+    background-color: var(--color-neutral-10);
+    border: none;
+    color: var(--color-neutral-40);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+.botao:hover, .button_all:hover{
+    color: var(--color-neutral-10);
+    background-color: var(--color-neutral-40);
+    transition: 0.70s;
+}
+
+/*------------ L I N E ------------*/
+.line2{
+    padding: 0.25rem;
+    background-color: var(--color-neutral-40);
+    
+}
+
+.line3{
+    margin-top: 3px ;
+    padding: 1.8rem;
+    background-color: var(--color-neutral-10);
+    
+}
+
+.line4{
+    margin-top: 0.75em;
+    opacity: 90%;
+    padding: 0.50rem;
+    background-color: var(--color-neutral-10);
+    
+}
+
 /*------------ S L I D E R ------------*/
 section.slider{
     margin: 0 auto;
@@ -18,6 +69,7 @@ section.slider{
 }
 
 .slide-box{
+  
     width: 25%;
     height: 450px;
     position: relative;
@@ -28,31 +80,7 @@ section.slider{
 .slide-box img{
     width: 100%;
 }
-/*
-.nav-manual, .nav-auto{
-    position: absolute;
-    width: 100%;
-    right: 720px;
-    margin-top: 35%;
-    display: flex;
-    justify-content: center;
-}
 
-.nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #2b2b2b;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.nav-manual .manual-btn:not(:last-child), nav-auto div:not(:last-child){
-    margin-right: 10px;
-}
-.nav-manual .manual-btn:hover{
-    background-color: #2b2b2b;
-}
-*/
 #radio01:checked ~ .nav-auto .auto-btn1, #radio02:checked ~ .nav-auto .auto-btn2, #radio03:checked ~ .nav-auto .auto-btn3{
     background-color: #2b2b2b;
 }
@@ -76,3 +104,79 @@ section.slider{
         margin-top: 60%;
     }
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    gap: 4rem;
+    background-color: var(--color-neutral-0);
+  }
+  
+.button_all {
+    
+    padding: 15px 25px;
+    background-color: var(--color-neutral-10);
+    border: none;
+    border-radius: 10px;
+    color: var(--color-neutral-40);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+  }
+  
+.button_all:last-child {
+    margin-right: 0;
+  }
+  
+
+/*------ PALETA DE CORES ------*/
+:root{
+    --color-neutral-0: #f1efe7;
+    --color-neutral-10: #000000;
+    --color-neutral-40: #fcfcfc;
+  
+}
+.container-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.75rem;
+  }
+  
+  .box {
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    background-color: var(--color-neutral-0);
+    margin-right: 2rem;
+  }
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+
+}
+  .content {
+    margin-top: 0.75rem;
+    width: 600px;
+    height: 680px;
+    justify-content: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
