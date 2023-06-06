@@ -151,9 +151,7 @@ html{
 
 /*------------ F O O T E R ------------*/
 
-main{
-    height: 80vh;
-}
+
 footer {
    width: 100%;
    color: var(--color-neutral-10) ;
