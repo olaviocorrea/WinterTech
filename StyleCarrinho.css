@@ -1,20 +1,102 @@
 main{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: stretch;
-    padding: 5%;
+    align-items: center;
+    width: 100%;   
+} 
+.sessao-carrinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    min-width: 390px;
+    background-color:#F1EFE7;
+    border-radius: 16px;
     
+    margin: 30px auto 30px auto;
+    gap:10px   
 }
 
+#dados-entrega{
+    font-family: 'Inter'   
+}
+
+.container-carrinho{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 3%;
+    width: 80%;
+    min-width: 400px;
+}
+
+.input-carrinho{
+    border:4px solid #040404;
+    border-radius: 15px;
+    padding: 3px;
+    width: 80%;
+}
+.container-meio-carrinho{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 3%;
+}
+
+.label-carrinho{
+    width: auto;
+    color: black;
+    font-family:'Inter';
+    font-weight: bold;
+}
 .detalhes-pedidos{
     display: flex;    
     justify-content: space-between;
+    width: 80%;
     background: #2B2C32;
     color: #eaeaea;
-    padding: 3%  
+    border-radius: 15px;
+    padding: 2%;
+       
+}
+#h2-pedidos{
+    margin: 2% 0% 1% 0%;
+}
+.detalhes-pagamento{
+    display: flex;
+    width: 80%;
+    gap: 1%;
+    justify-content: center;
+    
+
+}
+.cartao-credito{
+    background-color: #040404;
+    color: #F1EFE7;
+    border-radius: 10px;
+    padding: 1.5%;
     
 }
+.mt-pagamento{    
+    border:3px solid #040404;
+    border-radius: 10px; 
+    padding: 1.5%; 
+    
+}
+#btn-finalizar{
+    background-color: #040404;
+    color: #F1EFE7;
+    border-radius: 10px;
+    padding: 1.5% 5% 1.5% 5%;
+}
+
+
+
+  
+
+/*
+
 
 .forma-pgto{
     background: #2B2C32;

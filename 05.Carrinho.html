@@ -42,13 +42,48 @@
             </div>
         </div>   
     </div>
-
-    <section>
-        <h1 id="h1-pedidos">
-            <b>StyleTech | Pedidos</b> 
-        </h1>
-        <section class=" detalhes">
-            <dl class="detalhes-pedidos">
+    <main> 
+        <section class="sessao-carrinho">
+            <h2 id="dados-entrega">
+                DADOS DA ENTREGA
+            </h2>
+            <div class="container-carrinho">
+                <label for="nome" class="label-carrinho">
+                    NOME
+                </label>
+                <input type="text" id="nome" name="nome" class="input-carrinho" placeholder=" Informe seu nome">
+            </div>
+            <div class="container-carrinho">
+                <label for="endereco" class="label-carrinho">
+                    ENDEREÇO
+                </label>
+                <input type="text" id="endereco" name="endereco" class="input-carrinho" placeholder=" Informe seu endereço">
+            </div>
+            <div class="container-carrinho" class="label-carrinho">
+                <div class="container-meio-carrinho">
+                    <label for="bairro" class="label-carrinho">
+                        BAIRRO
+                    </label>
+                    <input type="text" id="bairro" name="bairro" class="input-carrinho" placeholder=" Informe seu bairro">
+                </div>
+                <div class="container-meio-carrinho">
+                    <label for="cep" class="label-carrinho">
+                        CEP
+                    </label>
+                    <input type="text" id="cep" name="cep" class="input-carrinho" placeholder=" Informe seu CEP">
+                </div>
+            </div>
+            <div class="container-carrinho">
+                <label for="endereco" class="label-carrinho">
+                    COMPLEMENTO
+                </label>
+                <input type="text" id="complemento" name="complemento" class="input-carrinho">
+            </div>
+        </section>
+        <h2 id="h2-pedidos">
+            PEDIDO
+        </h2>
+        <section class="detalhes-pedidos">
                 <div>
                     <dt>Número do pedido</dt>
                     <dd>0001</dd>
@@ -57,31 +92,49 @@
                     <dt>Valor</dt>
                     <dd>R$ 00,00</dd>
                 </div>
-            </dl>
         </section>
-        <button type="submit" class="ver-detalhes"><b>VER DETALHES</b></button>
-        <dl class="forma-pgto">
-            <p>Escolha uma forma de pagamento</P>
-            <div class="detalhes-pedidos">
-                <div>
-                    <dt>CRÉDITO | DÉBITO</dt>         
-                    <img src="./img/Mastercard Logo.svg" alt="Icone Usuário" target="_blank" id="img-mastercard">
-                    <img src="./img/Visa.svg" alt="Icone Usuário" target="_blank" id="img-visa">
+        <h2 id="h2-pedidos">
+            MÉTODO DE PAGAMENTO
+        </h2>
+        <section class="detalhes-pagamento">
+            <button type="submit" class="cartao-credito"><b>Cartão de Crédito</b></button>
+            <button type="submit" class="mt-pagamento"><b>Cartão de Débito</b></button>
+            <button type="submit" class="mt-pagamento"><b>PIX</b></button>
+            <button type="submit" class="mt-pagamento"><b>Boleto Bancário</b></button>
+        </section>
+        <section class="sessao-carrinho">
+            <div class="container-carrinho">
+                <label for="nome" class="label-carrinho">
+                    NOME
+                </label>
+                <input type="text" id="nome" name="nome" class="input-carrinho" placeholder=" Informe seu nome">
+            </div>
+            <div class="container-carrinho">
+                <label for="cartao" class="label-carrinho">
+                    NÚMERO DO CARTÃO
+                </label>
+                <input type="number" id="cartao" name="cartao" class="input-carrinho" placeholder= " Nº do cartão">
+            </div>
+            <div class="container-carrinho" class="label-carrinho">
+                <div class="container-meio-carrinho">
+                    <label for="mesAno" class="label-carrinho">
+                        MM / AA
+                    </label>
+                    <input type="text" id="mesAno" name="mesAno" class="input-carrinho" placeholder=" Mês e ano">
                 </div>
-                <div>
-                    <dt>PIX</dt>
-                    <img src="./img/ico_pix.svg" alt="Icone Usuário" target="_blank" id="img-pix">
-                </div>
-                <div>
-                    <dt>BOLETO</dt>
-                    <img src="./img/inc_boleto.svg" alt="Icone Usuário" target="_blank" id="img-boleto">
+                <div class="container-meio-carrinho">
+                    <label for="codSeguranca" class="label-carrinho">
+                        COD. SEGURANÇA
+                    </label>
+                    <input type="number" id="codSeguranca" name="codSeguranca" class="input-carrinho" placeholder=" Código de segurança">
                 </div>
             </div>
-        </dl>
-        <button type="submit" class="button_finalizar-pgto"><b>FINALIZAR</b></button>
-    </section>
+        </section>
+        
+        <button type="submit"id="btn-finalizar"><b>FINALIZAR</b></button>
     
-    <main> 
+    
+    </main>
         <footer>
             <div id="footer_content">
                 <div id="footer_contacts">
@@ -109,6 +162,6 @@
                 2023 all rights reserved</strong>
             </div>
         </footer>
-    </main>
+    
 </body>
 </html>
