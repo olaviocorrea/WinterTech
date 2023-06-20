@@ -43,15 +43,11 @@
   background-color: #555;
 }
 
-
-
-
 /* Reset de estilos básicos */
 
-section {
+main {
     max-width: 900px;
     margin: 20px auto;
-
     padding: 40px auto ;
     background-color: #fff;
 }
