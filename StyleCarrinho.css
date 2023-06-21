@@ -99,6 +99,8 @@ main{
     padding: 1.5%; 
     
 }
+
+
 #btn-finalizar{
     background-color: #040404;
     color: #F1EFE7;
@@ -106,4 +108,5 @@ main{
     border-radius: 10px;
     padding: 1% 10% 1% 10%;
 }
+
 
