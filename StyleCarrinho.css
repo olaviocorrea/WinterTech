@@ -2,23 +2,34 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;   
+    width: 100%;
+    padding: 1%;
 } 
 .sessao-carrinho{
     display: flex;
     flex-direction: column;
     align-items: center;
     width:80%;
-    min-width: 390px;
-    background-color:#F1EFE7;
+    min-width: 390px;    
     border-radius: 16px;
-    
-    margin: 30px auto 30px auto;
+    padding: 2% 00.5% 2% 0.5%;    
+    margin: 2% auto 2%px auto;
     gap:10px   
 }
 
-#dados-entrega{
-    font-family: 'Inter'   
+#dados-entrega{ 
+    margin: 2% 0% 1% 0%;
+    padding:  2% 0% 1% 0%;     
+}
+
+#h2-pedidos{     
+    margin: 2% 0% 1% 0%;
+    padding:  2% 0% 1% 0%;
+}
+
+#h2-metodo-pgto{
+    margin: 2% 0% 1% 0%;
+    padding:  2% 0% 1% 0%;
 }
 
 .container-carrinho{
@@ -50,6 +61,13 @@ main{
     font-family:'Inter';
     font-weight: bold;
 }
+
+#linha-separa-carrinho{
+    background: #040404;
+    width: 100%;
+    padding: 0.7%;
+}
+
 .detalhes-pedidos{
     display: flex;    
     justify-content: space-between;
@@ -57,12 +75,9 @@ main{
     background: #2B2C32;
     color: #eaeaea;
     border-radius: 15px;
-    padding: 2%;
-       
+    padding: 2%;       
 }
-#h2-pedidos{
-    margin: 2% 0% 1% 0%;
-}
+
 .detalhes-pagamento{
     display: flex;
     width: 80%;
@@ -87,70 +102,8 @@ main{
 #btn-finalizar{
     background-color: #040404;
     color: #F1EFE7;
+    margin-left: 37%;
     border-radius: 10px;
-    padding: 1.5% 5% 1.5% 5%;
-}
-
-
-
-  
-
-/*
-
-
-.forma-pgto{
-    background: #2B2C32;
-    color: #eaeaea;
-    padding: 3%
-    
-}
-
-.button_finalizar-pgto{
-    background: #eaeaea;
-    color: #2B2C32;
-    width: 20%;
-    margin-left: 80%;
-    font-size:1rem;
-    border:none
-    
-}
-
-.ver-detalhes{
-    background: #eaeaea;
-    color: #2B2C32;
-    width: 20%;
-    margin-left: 80%;
-    font-size: 1rem;
-    border:none;
-
-}
-
-#img-mastercard{
-    width: 30%;
-    left: auto;    
-}
-
-#img-visa{
-    width: 30%;
-    left: auto;
-}
-
-#img-pix{
-    width: 50%;
-    left: auto;
-
-}
-
-#img-boleto{
-    width: 40%;
-    left: auto;
-}
-
-dt, dd, p{
-    font-size: 1rem;
-}
-.detalhes{
-    border-radius: 10px ;
-
+    padding: 1% 10% 1% 10%;
 }
 

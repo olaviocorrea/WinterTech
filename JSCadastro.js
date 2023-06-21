@@ -1,14 +1,5 @@
 // Funções gerais
 function togglePopup(input, label) {
-    //Mostrar popup de campo obrigatório
-    input.addEventListener("focus", () => {
-        label.classList.add("required-popup");
-    })
-
-    // Ocultar popup de campo obrigatório
-    input.addEventListener('blur', () => {
-        label.classList.remove('required-popup');
-    });
 }
 
 function estilizarInputCorreto(input, helper) {
@@ -39,7 +30,7 @@ usernameInput.addEventListener('change', (event) => {
 
     if(value.length <= 3) {
         //Adicionar estilo dinâmico se o valor tiver menos que 3 caracteres
-        usernameHelper.innerText = 'o username precisa ter mais de 3 caracteres!'
+        usernameHelper.innerText = 'O username precisa ter mais de 3 caracteres!'
         
         estilizarInputIncorreto(usernameInput, usernameHelper)
         inputsCorretos.username = false
@@ -65,7 +56,7 @@ emailInput.addEventListener('change', (event)=>{
         estilizarInputCorreto(emailInput,emailHelper);
         inputsCorretos.email = true
     } else{
-        emailHelper.innerText = "Precisa inserir um email válido"
+        emailHelper.innerText = "Você precisa inserir um email válido"
         estilizarInputIncorreto(emailInput,emailHelper);
         inputsCorretos.email = false
     }
