@@ -10,7 +10,7 @@
 }
 
 html{
- 
+
     scroll-behavior: smooth;}
 
 #line p{
@@ -20,9 +20,9 @@ html{
 /*------------ L O G O ------------*/
 
 #logo img{
-    margin-left: 30px;
-    margin-right: 45px;
-    padding-top: 15px;
+    margin-left: 2%;
+    margin-right: 3%;
+    padding-top: 10px;
     max-width:200px;
     max-height:190px;
 }
@@ -31,12 +31,12 @@ html{
     
     width: 1.5em;
     height: 1.5em;
-    padding-left: 1.5em;
+    padding-left: 1.5%;
     top: 92px;
     color: #000000;
 }
 .search-box{
-    justify-content: space-between;
+    justify-content:start;
     top: 12%;
     background: #d9d9d9;
     height: 35px;
@@ -44,7 +44,8 @@ html{
     padding: .5px;
     display: flex;
     align-items: center;
-    max-width: 100%;
+    width: 60%;
+    min-width: 150px;
     opacity: 89%;
     flex-direction: row-reverse
 
@@ -58,14 +59,14 @@ html{
     border: 0;
     outline: 0;
     padding: 0;
-    font-size: 16px;
-    width: 760px;
+    font-size: 1rem;
+    width: 30%;
     transition: 0.4s;
-    padding-right: 15px;
-    align-items: center;
+    padding-right: 1.5%;
+    
     
 }
-  .search-btn{
+.search-btn{
     width:50px ;
     height: 50px;
     border-radius: 50%;
@@ -78,22 +79,28 @@ html{
 
 /*------------ H E A D E R ------------*/
 #user img{
-    padding-left: 2em;
-    padding-right: 1em;
+    padding-left: 1.5%;
+    padding-right: 1%;
 }
 #user img, #carrinho img{
     display: flex;
     justify-content: space-between;
-    margin-left: 12px;
+    margin-left:5px;
     max-width: 38px;
     max-height: 38px;
+    padding-right: 5px;
 }
 
 #menu{
-    justify-content: flex-start;
+    justify-content: space-between;
     display: flex;
     align-items: center;
     background: #F1EFE7;
+}
+.icones-header{
+    display: flex;
+    padding-right: 5%;
+
 }
 
 .drop{
@@ -153,9 +160,17 @@ html{
 
 
 footer {
-   width: 100%;
-   color: var(--color-neutral-10) ;
-   
+    width: 100%;
+    color: var(--color-neutral-10) ;
+
+}
+
+#footer_img{
+    margin-left: 2%;
+    margin-right: 3%;
+    
+    max-width:90%;
+    max-height:60%;
 }
 .footer-link{
     text-decoration: none;
@@ -163,16 +178,26 @@ footer {
 }
 #footer_content{
     background-color: var(--color-neutral-0);
-    display: flex;
-    padding: 0.5rem 1rem;
+    display: flex;    
     top: auto;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
+
 }
+
+.txt-footer{    
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5px;
+}
+
 
 #footer_social_media{
     display: flex;
+    justify-content: end;
     gap: 1rem;
+    padding-right: 5%;
 }
 
 #footer_social_media .footer-link{
@@ -192,8 +217,7 @@ footer {
     opacity: 0.9;
     
 }
-#instagram{
-    margin-left: 44rem;
+#instagram{    
     background: var(--color-neutral-10);
 }
 #facebook{
@@ -210,14 +234,14 @@ footer {
     justify-content: center;
     background-color: var(--color-neutral-10);
     font-size: 0.9rem;
-    padding: 1.5rem;
+    padding: 0.8rem;
     font-weight: 100;
     
 
     
 }
 
-#footer_img{
+/*#footer_img{
     margin-left: 30px;
     margin-right: 45px;
     padding-top: 15px;
@@ -225,7 +249,7 @@ footer {
     max-height:190px;
 
 }
-
+*/
 
 
 
