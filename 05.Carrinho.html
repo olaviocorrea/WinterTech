@@ -11,67 +11,71 @@
     <title>Wintertech</title>
 </head>
 
-<body>
-    <div id="line"><p></p></div>    
-
-    <header id="menu">
-        <div id="logo"><a href="01.Home.html"><img src="IMG/Logo.png"></a></div>
-
-        <div class="search-box">
-            <input type="text" class="search-tex" placeholder="search...">
-            <a class="search-btn"></a>
-            <img class="lupa" src="IMG/search.png" >
-        </div>    
-        
-        <div id="user"><a href="03.Login.html"><img src="IMG/17004.png"></a></div>
-        <div id="carrinho"><a href="#"><img src="IMG/shopping-cart-removebg-preview.png"></a></div>
-
+<body>  
+    <header>
+        <div id="line"><p></p></div>  
+        <section id="menu">
+            <div id="logo"><a href="01.Home.html"><img src="IMG/Logo.png"></a></div>
+    
+            <div class="search-box">
+                <input type="text" class="search-tex" placeholder="search...">
+                <a class="search-btn"></a>
+                <img class="lupa" src="IMG/search.png" >
+            </div>    
+            
+            <div class="icones-header">
+                <div id="user"><a href="03.Login.html"><img src="IMG/17004.png"></a></div>
+                <div id="carrinho"><a href="05.Carrinho.html"><img src="IMG/shopping-cart-removebg-preview.png"></a></div>
+            </div>    
+        </section>
+    
+        <section class="drop">
+            <div class="dropdown">
+                <a class="dropbtn"><strong>Feminino</strong></a>
+                <div class="dropdown-content">
+                    <a  href="./02.Produtos.html">Esportivo</a>
+                    <a href="./02.Produtos.html" >Casual</a>
+                </div>
+            </div>
+            <div class="dropdown" class="dropdown-masc">
+                <a class="dropbtn"><strong>Masculino</strong></a>
+                <div class="dropdown-content">
+                    <a href="./02.Produtos.html">Esportivo</a>
+                    <a href="./02.Produtos.html">Casual</a>
+                </div>
+            </div>  
+            <a href="#Quemsomos" class="quemsomos"><strong>Quem somos</strong></a>
+        </section>
     </header>
-    <div class="drop">
-        <div class="dropdown">
-            <a class="dropbtn"><strong>Feminino</strong></a>
-            <div class="dropdown-content">
-                <a  href="./02.Produtos.html">Esportivo</a>
-                <a href="./02.Produtos.html" >Casual</a>
-            </div>
-        </div>
-        <div class="dropdown" class="dropdown-masc">
-            <a class="dropbtn"><strong>Masculino</strong></a>
-            <div class="dropdown-content">
-                <a href="./02.Produtos.html">Esportivo</a>
-                <a href="./02.Produtos.html">Casual</a>
-            </div>
-        </div>   
-    </div>
     <main> 
         <section class="sessao-carrinho">
-            <h2 id="dados-entrega">
+            <h2 id="dados-entrega" >
                 DADOS DA ENTREGA
             </h2>
             <div class="container-carrinho">
                 <label for="nome" class="label-carrinho">
                     NOME
                 </label>
-                <input type="text" id="nome" name="nome" class="input-carrinho" placeholder=" Informe seu nome">
+                <input type="text" id="nome" name="nome" class="input-carrinho" autocomplete="name" placeholder=" Informe seu nome">
             </div>
             <div class="container-carrinho">
                 <label for="endereco" class="label-carrinho">
                     ENDEREÇO
                 </label>
-                <input type="text" id="endereco" name="endereco" class="input-carrinho" placeholder=" Informe seu endereço">
+                <input type="text" id="endereco" name="endereco" class="input-carrinho" autocomplete="address-line1" placeholder=" Informe seu endereço">
             </div>
             <div class="container-carrinho" class="label-carrinho">
                 <div class="container-meio-carrinho">
                     <label for="bairro" class="label-carrinho">
                         BAIRRO
                     </label>
-                    <input type="text" id="bairro" name="bairro" class="input-carrinho" placeholder=" Informe seu bairro">
+                    <input type="text" id="bairro" name="bairro" class="input-carrinho" autocomplete="bairro" placeholder=" Informe seu bairro">
                 </div>
                 <div class="container-meio-carrinho">
                     <label for="cep" class="label-carrinho">
                         CEP
                     </label>
-                    <input type="text" id="cep" name="cep" class="input-carrinho" placeholder=" Informe seu CEP">
+                    <input type="text" id="cep" name="cep" class="input-carrinho" autocomplete="cep" placeholder=" Informe seu CEP">
                 </div>
             </div>
             <div class="container-carrinho">
@@ -81,8 +85,11 @@
                 <input type="text" id="complemento" name="complemento" class="input-carrinho">
             </div>
         </section>
-        <h2 id="h2-pedidos">
-            PEDIDO
+
+        <div id="linha-separa-carrinho"><p></p></div> 
+
+        <h2 id="h2-pedidos" >
+            PEDIDO 
         </h2>
         <section class="detalhes-pedidos">
                 <div>
@@ -94,7 +101,7 @@
                     <dd>R$ 00,00</dd>
                 </div>
         </section>
-        <h2 id="h2-pedidos">
+        <h2 id="h2-metodo-pgto">
             MÉTODO DE PAGAMENTO
         </h2>
         <section class="detalhes-pagamento">
@@ -132,37 +139,36 @@
             </div>
         </section>
         
-        <button type="submit"id="btn-finalizar"><b>FINALIZAR</b></button>
-    
-    
+        <button type="submit"id="btn-finalizar"><b>FINALIZAR</b></button> 
+
     </main>
-        <footer>
-            <div id="footer_content">
-                <div id="footer_contacts">
-                    <img id="footer_img" src="IMG/Logo.png">
-                </div>
 
-                    <div id="footer_social_media">
-                        <a href="#" class="footer-link" id="instagram">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-
-                        <a href="#" class="footer-link" id="facebook">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-
-                        <a href="#" class="footer-link" id="whatsapp">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-                    </div>
-                <div id="input_group"></div>
+    <footer>            
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <p class="txt-footer">FORMA DE PAGAMENTO</p>
+                <img id="footer_img" src="/IMG/forma-de-pagamento-grande-removebg-preview.png">
             </div>
 
-            <div id="footer_copyright"><strong>
-                &#169
-                2023 all rights reserved</strong>
-            </div>
-        </footer>
-    
+            <div id="footer_social_media">
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="footer-link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>            
+        </div>
+
+        <div id="footer_copyright"><strong>
+            &#169
+            2023 all rights reserved</strong>
+        </div>
+    </footer>    
 </body>
 </html>
