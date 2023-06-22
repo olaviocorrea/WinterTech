@@ -87,3 +87,8 @@ button{
 .visible {
     display: block;
 }
+
+main{
+    padding-bottom: 8em;
+    padding-top: 4em ;
+}
